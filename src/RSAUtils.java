@@ -192,8 +192,8 @@ public class RSAUtils {
     public String  main(String message) {
         try {
             //String类型密匙文件路径
-            String fileName = "F:\\Work_Space\\Hackkings6.0\\Demo\\RSApubKey.txt";
-            String fileName1 = "F:\\Work_Space\\Hackkings6.0\\Demo\\RSApriKey.txt";
+            String fileName = "F:\\Work_Space\\JAVA DES\\Demo\\RSApubKey.txt";
+            String fileName1 = "F:\\Work_Space\\JAVA DES\\Demo\\RSApriKey.txt";
             //得到私钥和公钥
             KeyPair keyPair = getRSAKey();
             RSAPrivateKey privateKey = (RSAPrivateKey) keyPair.getPrivate();
