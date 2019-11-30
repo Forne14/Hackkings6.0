@@ -291,7 +291,7 @@ public class QRCodeUtil {
         //QRCodeUtil.encode(text, "e:\\csdn.jpg", "e:\\", true);
 
         //With Logo，define the name of the QRcode file.
-        return QRCodeUtil.encode(text, "F:\\Work_Space\\JAVA DES\\material\\kcl.jpg", "F:\\Work_Space\\JAVA DES\\Gen", needCompress);
+        return QRCodeUtil.encode(text, "F:\\Work_Space\\Hackkings6.0\\material\\kcl.jpg", "F:\\Work_Space\\Hackkings6.0\\Gen", needCompress);
     }
 }
 
